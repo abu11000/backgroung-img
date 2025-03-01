@@ -1,0 +1,83 @@
+header img {
+    width: 56px;
+    height: 46px;
+    margin-left: 25px;
+}
+
+header button {
+    background-color: orange;
+    width: 192px;
+    height: 82px;
+    margin-right: 25px;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: black;
+    height: 82px;
+    width: 100%;
+
+}
+
+.box {
+    height: 25px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.boxx {
+    height: 700px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+    background-color: black;
+    background-image: url(./punbg.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.pc h2 {
+    color: black;
+    background-color: orange;
+    width: 235px;
+    height: 73px;
+    
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}   
+.console h2{
+    color: rgb(255, 254, 254);
+    background-color: rgb(8, 7, 6);
+    width: 235px;
+    height: 73px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.aaa{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+  width: 500px;
+}
+footer img{
+    width: 56px;
+    height: 46px;
+    margin-left: 25px;
+}
+footer{
+    background-color: black;
+}
